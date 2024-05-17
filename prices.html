@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Цени
+    </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        div.background {
+          background-image: url('hotel _pomorie_pano.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        }
+        div.opbackground {
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 100%;
+            overflow:hidden;
+            
+        }
+        .button {
+    background-color: #ffffe6;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin: 4px 2px;
+    
+        }
+        div.button:hover {
+            background-color: rgb(245, 245, 220);
+        }
+       .buttonholder{
+         overflow: auto;
+         width: 100%;
+         height: 60px;
+       }
+        html {scroll-behavior: smooth;}
+
+        table, th, td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+        th:nth-child(even),td:nth-child(even) {
+  background-color: #D6EEEE;
+       }
+        
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        </style>
+    
+</head>
+<body style="background-color:#ffffe6; font-family:Georgia, serif; font-size: 220%; text-align: center; color: black; opacity: 1;">
+    <img src="logo.png" alt="logo" id="top">
+    <div class="buttonholder">
+        <div class="button" onclick="window.open=window.location='home.html';" style="float: left;">Начало</div>
+        <div class="button" onclick="window.open=window.location='rooms.html';" style="float: left;">Стаи</div>
+        <div class="button" onclick="window.open=window.location='prices.html';" style="float: left;">Цени</div>
+    </div>
+   
+
+<div class="background"> 
+    <div class="opbackground">
+       <h1>Цени</h1>
+       <table class="center">
+        <tr>
+            <th>Дата</th>
+            <th>Единична стая</th>
+            <th>Двойна стая</th>
+            <th>Апартамент</th>
+          </tr>
+          <tr>
+            <td>01.01-30.05.2024</td>
+            <td>55 лв</td>
+            <td>75 лв</td>
+            <td>95 лв</td>
+          </tr>
+          <tr>
+            <td>01.06-15.09.2024</td>
+            <td>60лв</td>
+            <td>90 лв</td>
+            <td>120 лв</td>
+          </tr>
+       </table>
+       <a href="https://grandhotelpomorie.com"><p>Сайт на Гранд хотел Поморие </p></a>
+
+
+
+      
+    </div>
+</div>
+            
+    </body>
